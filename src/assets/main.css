@@ -1,0 +1,37 @@
+@font-face {
+    font-family: SBB;
+    src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Roman.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Roman.woff") format("woff");
+    font-display: fallback;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SBB;
+    src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Bold.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: SBB;
+    src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Light.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Light.woff") format("woff");
+    font-display: swap;
+    font-weight: 300;
+}
+
+:root {
+    font-family: SBB;
+    font-size: 14px;
+    color: white;
+}
+
+body {
+    background-image: url(station.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#app {
+    text-align: center;
+}
